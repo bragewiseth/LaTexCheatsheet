@@ -1,0 +1,48 @@
+
+\documentclass{article}%
+\usepackage{cfr-lm}%
+\usepackage[T1]{fontenc}%
+% \usepackage[utf8]{inputenc}%
+\usepackage{physics}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[margin=3cm]{geometry}
+\usepackage{changepage}
+\usepackage{fontspec}
+\usepackage{minted}
+\usepackage{tcolorbox}
+\usepackage{lmodern}
+\usemintedstyle{bw}
+\usepackage[%  
+    colorlinks=true,
+    pdfborder={0 0 0},
+    linkcolor=red
+]{hyperref}
+
+\usepackage{xcolor}
+% \usepackage{tikz}
+
+
+
+\newtcbox{\entoure}[1][black]{on line,
+arc=2pt,colback=#1!10!white,colframe=white,
+before upper={\rule[-3pt]{0pt}{10pt}},boxrule=1pt,
+boxsep=0pt,left=2pt,right=2pt,top=1pt,bottom=.5pt}
+
+
+
+\title{Tittel \\ mer tittel}%
+\author{Frida Berge}%
+\date{\today}%
+\newfontfamily{\iosevka}{Iosevka Fixed Curly}%
+% \setmainfont{FreeSans}
+\setmonofont{Iosevka Fixed Curly}
+%
+\begin{document}%
+\normalsize%
+% \iosevka%
+%
+\maketitle%
+% \normalfont
+\end{document}
