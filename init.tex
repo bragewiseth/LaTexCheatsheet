@@ -1,8 +1,8 @@
-
 \documentclass{article}%
-\usepackage{cfr-lm}%
-\usepackage[T1]{fontenc}%
 % \usepackage[utf8]{inputenc}%
+% \usepackage{tikz}
+% \usepackage{cfr-lm}%
+\usepackage[T1]{fontenc}%
 \usepackage{physics}
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -13,36 +13,43 @@
 \usepackage{minted}
 \usepackage{tcolorbox}
 \usepackage{lmodern}
-\usemintedstyle{bw}
-\usepackage[%  
-    colorlinks=true,
-    pdfborder={0 0 0},
-    linkcolor=red
-]{hyperref}
-
 \usepackage{xcolor}
-% \usepackage{tikz}
+\usemintedstyle{bw}
+\usepackage[% colorlinks=true, pdfborder={0 0 0}, linkcolor=red ]{hyperref}
 
-
-
-\newtcbox{\entoure}[1][black]{on line,
+\newtcbox{\code}[1][black]{on line,
 arc=2pt,colback=#1!10!white,colframe=white,
 before upper={\rule[-3pt]{0pt}{10pt}},boxrule=1pt,
 boxsep=0pt,left=2pt,right=2pt,top=1pt,bottom=.5pt}
 
 
-
-\title{Tittel \\ mer tittel}%
-\author{Frida Berge}%
+\title{MAT1120\\Oblig 2}%
+\author{Brage Wiseth}%
 \date{\today}%
-\newfontfamily{\iosevka}{Iosevka Fixed Curly}%
 % \setmainfont{FreeSans}
 \setmonofont{Iosevka Fixed Curly}
-%
+
 \begin{document}%
 \normalsize%
-% \iosevka%
-%
 \maketitle%
 % \normalfont
+
+
+
+
+
+
+% \begin{tcolorbox}[colframe=white]
+%     \textbf{tcolorbox}
+% \end{tcolorbox}
+
+% \begin{figure}[!htb]
+%     \centering
+%     \resizebox{0.28\textwidth}{!}{\input{figur.pdf_tex}}
+% \end{figure}
+
+% \begin{minipage}[t]{.46\linewidth}
+    % \includegraphics[width=78mm]{hastighetx.pdf}
+% \end{minipage}
+
 \end{document}
