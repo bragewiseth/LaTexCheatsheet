@@ -4,7 +4,7 @@ layout: post
 
 Brøker:
 
-~~~ Tex
+~~~ tex
   $$\frac{1}{2}$$
 ~~~
 
@@ -18,7 +18,7 @@ Align:
 > `\\` indikerer ny linje
 > `\quad` og `\qquad` genererer mellomrom i mathmode
 
-~~~ Tex
+~~~ tex
 \begin{align*}
     \oint\limits_C \vb{F} \cdot d\vb{r} = \qquad\qquad& \\
    -\oint\limits_C P dx + Q dy &= -\iint\limits_R \left(\pdv{Q}{x}-\pdv{P}{y}\right)dxdy\\
@@ -30,7 +30,7 @@ Align:
 
 Minipage:
 
-~~~ Tex
+~~~ tex
 \begin{minipage}[t]{.48\linewidth}
   % likningen over
 \end{minipage}
@@ -41,6 +41,6 @@ Minipage:
 ~~~
 
 <div align="center">
-  <img src="g3586.svg" width="1000"/>
+  <img src="g3586.svg" width="800"/>
 </div>
 
