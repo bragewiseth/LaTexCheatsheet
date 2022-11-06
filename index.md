@@ -1,4 +1,4 @@
 ---
 title: Cheatsheet
-layout: Document
+layout: default
 ---
