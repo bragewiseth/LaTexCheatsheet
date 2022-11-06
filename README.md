@@ -1,3 +1,7 @@
 # LaTex Cheatsheet
 
-> hei
+~~~ LaTex
+
+  \includegraphics
+  
+~~~
