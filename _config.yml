@@ -4,7 +4,7 @@ markdown: kramdown
 # for atom feed
 
 source              : .
-destination         : ./root/
+destination         : ./_site
 layouts_dir         : _layouts
 data_dir            : _data
 includes_dir        : _includes
