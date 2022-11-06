@@ -2,10 +2,10 @@
 layout: post
 ---
 
-~~~ LaTex
+Brøker:
 
+~~~ LaTex
   \frac{1}{2}
-  
 ~~~
 
 
