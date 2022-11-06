@@ -4,7 +4,7 @@ layout: post
 
 Brøker:
 
-~~~ javascript
+~~~ Tex
   $$\frac{1}{2}$$
 ~~~
 
@@ -14,7 +14,10 @@ Brøker:
 
 Align:
 
-~~~ javascript
+> lingningene blir linet opp etter `&` symbolet
+> `\\` indikerer ny linje
+
+~~~ Tex
 \begin{align*}
     \oint\limits_C \vb{F} \cdot d\vb{r} = \qquad\qquad& \\
    -\oint\limits_C P dx + Q dy &= -\iint\limits_R \left(\pdv{Q}{x}-\pdv{P}{y}\right)dxdy\\
@@ -26,28 +29,13 @@ Align:
 
 Minipage:
 
-~~~ javascript
+~~~ Tex
 \begin{minipage}[t]{.48\linewidth}
-
-
+  % likningen over
 \end{minipage}
 \hspace{4mm}
 \begin{minipage}[t]{.48\linewidth}
-    Hvis vi tar linjestykket $C_1$ mellom $(a_1,b_1)$
-    og $(a_{2},b_{2})$ er $\Delta a = a_{2} - a_1$
-    og $\Delta b = b_{2} - b_1$.
-    Linjen starter i  $(a_1,b_1)$ og går en distanse 
-    $\Delta a$ og $\Delta b$ mot henholdsvis $(a_2,b_2)$.
-    Punktet $(a_2,b_2)$ kan da
-    skrives som 
-    $(a_1 + (a_2-a_1))\vb*i + (b_1 + (b_2 -b_1))\vb*j$.\\\\
-    Vi kan generalisere dette til 
-    $C_k$: $(a_k + (a_{k+1}-a_k))\vb*i + (b_k + (b_{k+1} - b_k))\vb*j$.
-    Parameteriseringen av denne linjen kan gis som
-    \begin{align*}
-         \vb{r}_k(t) = (a_k + t(a_{k+1}-a_k))\vb*i + (b_k + t(b_{k+1} - b_k))\vb*j
-    \end{align*}
-    Der $0 \le t \le 1$ bestemmer lengden på $\Delta a$ og $\Delta b$
+  % masse masse tekst
 \end{minipage}
 ~~~
 
