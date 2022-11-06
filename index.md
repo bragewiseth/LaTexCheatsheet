@@ -14,7 +14,7 @@ Brøker:
 
 Align:
 
-~~~ LaTex
+~~~ javascript
 \begin{align*}
     \oint\limits_C \vb{F} \cdot d\vb{r} = \qquad\qquad& \\
    -\oint\limits_C P dx + Q dy &= -\iint\limits_R \left(\pdv{Q}{x}-\pdv{P}{y}\right)dxdy\\
@@ -26,7 +26,7 @@ Align:
 
 Minipage:
 
-~~~ LaTex
+~~~ javascript
 \begin{minipage}[t]{.48\linewidth}
 
 
@@ -52,6 +52,6 @@ Minipage:
 ~~~
 
 <div align="center">
-  <img src="g3586.svg" width="300"/>
+  <img src="g3586.svg" width="1000"/>
 </div>
 
