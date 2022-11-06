@@ -11,11 +11,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-collections_dir: all_collections
-collections:
-  posts:
-    output: true
-
 defaults:
   - scope:
       path: "_posts"
