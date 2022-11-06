@@ -5,30 +5,34 @@ layout: post
 Brøker:
 
 ~~~ LaTex
-  \frac{1}{2}
+  $$\frac{1}{2}$$
 ~~~
 
 <div align="center">
   <img src="g19.svg" width="30"/>
 </div>
 
-kollonner:
+Align:
 
-~~~ Latex
+~~~ tex
+\begin{align*}
+    \oint\limits_C \vb{F} \cdot d\vb{r} = \qquad\qquad& \\
+   -\oint\limits_C P dx + Q dy &= -\iint\limits_R \left(\pdv{Q}{x}-\pdv{P}{y}\right)dxdy\\
+   -\iint\limits_R \left(\pdv{Q}{x}-\pdv{P}{y}\right)dxdy 
+   &=-\iint\limits_R \left(\pdv{\frac{x}{2}}{x} + \pdv{\frac{y}{2}}{y}\right)dxdy   \\
+    &=-\iint\limits_R 1 \; \text dx \text dy\\
+\end{align*}
+~~~
+
+Minipage:
+
+~~~ tex
 \begin{minipage}[t]{.48\linewidth}
-    \section*{A}
-    $C$ er orientert med klokka så integralet må ganges med $-1$
-    \begin{align*}
-        \oint\limits_C \vb{F} \cdot d\vb{r} = \qquad\qquad& \\
-        -\oint\limits_C P dx + Q dy &= -\iint\limits_R \left(\pdv{Q}{x}-\pdv{P}{y}\right)dxdy\\
-        -\iint\limits_R \left(\pdv{Q}{x}-\pdv{P}{y}\right)dxdy &=-\iint\limits_R \left(\pdv{\frac{x}{2}}{x} + \pdv{\frac{y}{2}}{y}\right)dxdy   \\
-        &=-\iint\limits_R 1 \; \text dx \text dy\\
-    \end{align*}
-    Dobbeltintegralet av $1$ beregner arealet av området som det integreres over.
+
+
 \end{minipage}
 \hspace{4mm}
 \begin{minipage}[t]{.48\linewidth}
-    \section*{B}
     Hvis vi tar linjestykket $C_1$ mellom $(a_1,b_1)$ og $(a_{2},b_{2})$ er $\Delta a = a_{2} - a_1$ og $\Delta b = b_{2} - b_1$.
     Linjen starter i  $(a_1,b_1)$ og går en distanse $\Delta a$ og $\Delta b$ mot henholdsvis $(a_2,b_2)$. Punktet $(a_2,b_2)$ kan da
     skrives som $(a_1 + (a_2-a_1))\vb*i + (b_1 + (b_2 -b_1))\vb*j$.\\\\
@@ -42,5 +46,5 @@ kollonner:
 ~~~
 
 <div align="center">
-  <img src="g3586.svg" width="4"/>
+  <img src="g3586.svg" width="10"/>
 </div>
