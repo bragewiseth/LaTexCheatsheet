@@ -1,4 +1,4 @@
 ---
-title: Blog
-layout: blog
+title: Cheatsheet
+layout: Document
 ---
