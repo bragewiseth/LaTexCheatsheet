@@ -2,7 +2,7 @@
 layout: post
 ---
 
-#### FONT:
+#### FONT
 
 *Krever pakken `fontspec` og recipes satt til xelatex*
 
@@ -16,7 +16,7 @@ layout: post
 % \setmonofont[medium]{Jetbrains Mono}
 ~~~
 
-#### FONTSIZE:
+#### FONTSIZE
 
 ~~~ tex
 \scriptsize
@@ -28,7 +28,36 @@ layout: post
 \LARGE
 ~~~
 
-#### MATHMODE:
+#### FORMATERINGER
+
+NY SIDE:
+
+~~~ tex
+\newpage
+~~~
+
+NY LINJE:
+
+~~~ tex
+\\
+%eller
+\\[3cm]
+~~~
+
+VERTICAL SPACE:
+~~~ tex
+\vspace*{3mm}
+\vspace{.5\linewidth}
+~~~
+
+HORIZONTAL SPACE:
+
+~~~ tex
+\hspace{-3px}
+\hspace*{3mm}
+~~~
+
+#### MATHMODE
 
 INLINE:
 
@@ -42,7 +71,7 @@ SENTRERT:
 $$\int_{a}^{b}
 ~~~
 
-#### BRØKER:
+#### BRØKER
 
 ~~~ tex
   $$\frac{1}{2}$$
@@ -52,7 +81,7 @@ $$\int_{a}^{b}
   <img src="g19.svg" width="30"/>
 </div>
 
-#### ALIGN:
+#### ALIGN
 
 > lingningene blir linet opp etter `&` symbolet
 > *align* er i mathmode
