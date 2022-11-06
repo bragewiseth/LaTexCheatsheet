@@ -19,4 +19,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
+exclude: ["sitemap.xml", "feed.xml", "LICENSE"]
