@@ -8,4 +8,4 @@ layout: post
   
 ~~~
 
-$$\frac{1}{2}$$
+
