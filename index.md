@@ -8,7 +8,4 @@ Brøker:
   \frac{1}{2}
 ~~~
 
-<img src="g19.svg" width="200"/>
-
-![](g19.svg)
-
+<img align="center" src="g19.svg" width="70"/>
