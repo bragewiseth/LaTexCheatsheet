@@ -45,6 +45,7 @@ Minipage:
 \end{minipage}
 ~~~
 
-<div align="center">
-  <img src="g3586.svg" width="10"/>
-</div>
+<!-- <div align="center">
+  <img src="g3586.svg" width="30"/>
+</div> -->
+![](g3586.svg)
