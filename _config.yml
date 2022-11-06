@@ -8,9 +8,6 @@ destination         : ./root/
 layouts_dir         : _layouts
 data_dir            : _data
 includes_dir        : _includes
-collections:
-  posts:
-    output          : true
 
 
 author:
@@ -22,4 +19,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
+exclude: ["sitemap.xml", "feed.xml", "LICENSE"]
