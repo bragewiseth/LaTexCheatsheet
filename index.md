@@ -4,7 +4,7 @@ layout: post
 
 Brøker:
 
-~~~ LaTex
+~~~ javascript
   $$\frac{1}{2}$$
 ~~~
 
