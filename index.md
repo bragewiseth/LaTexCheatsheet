@@ -1,4 +1,4 @@
 ---
 title: Cheatsheet
-layout: default
+layout: post
 ---
