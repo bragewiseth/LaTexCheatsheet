@@ -1,10 +1,10 @@
-title: LaTex Cheatsheet
+title: LaTexCheatsheet
 markdown: kramdown
 
 # for atom feed
 
 source              : .
-destination         : ./root/
+destination         : ./_site
 layouts_dir         : _layouts
 data_dir            : _data
 includes_dir        : _includes
@@ -19,4 +19,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-exclude: ["sitemap.xml", "feed.xml", "LICENSE"]
+exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
