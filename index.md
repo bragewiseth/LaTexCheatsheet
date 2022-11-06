@@ -1,4 +1,11 @@
 ---
-title: LaTex Cheatsheet
 layout: post
 ---
+
+~~~ LaTex
+
+  /frac{1}{2}
+  
+~~~
+
+$\frac{1}{2}$
