@@ -4,13 +4,10 @@ markdown: kramdown
 # for atom feed
 
 source              : .
-destination         : ./_site
+destination         : ./root/
 layouts_dir         : _layouts
 data_dir            : _data
 includes_dir        : _includes
-collections:
-  posts:
-    output          : true
 
 
 author:
