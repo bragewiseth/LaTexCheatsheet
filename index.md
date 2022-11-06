@@ -16,6 +16,7 @@ Align:
 
 > lingningene blir linet opp etter `&` symbolet
 > `\\` indikerer ny linje
+> `\quad` og `\qquad` genererer mellomrom i mathmode
 
 ~~~ Tex
 \begin{align*}
